@@ -1,0 +1,42 @@
+[
+    {
+      "id": "01",
+      "name": "PSC Course"
+    },
+    {
+      "id": "02",
+      "name": "JSC Course"
+    },
+    {
+      "id": "03",
+      "name": "SSC Courses"
+    },
+    {
+      "id": "04",
+      "name": "SSC Exam Batch"
+    },
+    {
+      "id": "05",
+      "name": "HSC courses"
+    },
+    {
+      "id": "06",
+      "name": "HSC Exam Batch"
+    },
+    {
+      "id": "07",
+      "name": "English Spoken Course"
+    },
+    {
+      "id": "08",
+      "name": "Math Special Batch"
+    },
+    {
+        "id": "09",
+      "name": "Govt. Job Preparation"
+    },
+    {
+        "id": "10",
+      "name": "Bank Job Preparation"
+    }
+  ]
