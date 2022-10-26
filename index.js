@@ -13,8 +13,23 @@ app.get('/', (req, res) => {
   res.send('Uttaron api running')
 })
 
+app.get('/courses_details/:id', (req, res) => {
+  const id = req.params.id
+  const relatedSubjects = coursesDetails.filter((c) => c.course_id === id)
+  res.send(relatedSubjects)
+})
+
 app.get('/courses', (req, res) => {
-  console.log(req.params.id)
+  res.send(courses)
+})
+
+app.get('/coursesDetails', (req, res) => {
+  res.send(coursesDetails)
+})
+app.get('/course_details/:id', (req, res) => {
+  const id = req.params.id
+  const relatedCourses = coursesDetails.find((c) => c.id === id)
+  res.send(relatedCourses)
 })
 
 app.listen(port, () => {
