@@ -32,6 +32,7 @@ app.get('/course_details/:id', (req, res) => {
   res.send(relatedCourses)
 })
 
+
 app.listen(port, () => {
   console.log('Uttaron Coaching Center', port)
 })
